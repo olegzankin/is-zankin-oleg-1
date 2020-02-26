@@ -1,0 +1,43 @@
+.fieldset-title {
+font-family: "Open Sans";
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+color: #1e0606;
+}
+
+.filter-text {
+font-family: "Open Sans";
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #1e0606;
+}
+
+.name-text {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #1E0606;
+}
+
+.name-price {
+font-family: Open Sans;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #1E0606; 
+}
+
+.number-slider {
+font-family: Montserrat;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #1E0606;
+}

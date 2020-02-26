@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DLK</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="index.html">
+        <img class="header-logo" src="/images/logo.png" alt="DLK"
+      /></a>
+      <nav class="site-nav">
+        <link font-family: Open Sans href="common.css" />
+        <ul>
+          <li><a class="nav-item" href="#">BLOG</a></li>
+          <li>
+            <a class="nav-item" href="//pages/catalog/index.html">CATALOG</a>
+          </li>
+          <li><a class="nav-item" href="#">ABSOLUTE</a></li>
+        </ul>
+      </nav>
+      <a class="search-link" href="#"
+        ><img src="/images/XMLID 1397.png" alt="search"
+      /></a>
+      <a class="contact-link" href="/pages/contact-us/index.html">CONTACT US</a>
+    </header>
+    <section class="services">
+      <div>
+        <h1 class="service-title">TOY FOR KIDS</h1>
+        <a class="slider-text" href="/index.html">Home</a>
+        <button class="left-black">
+          <svg
+            width="8"
+            height="12"
+            viewBox="0 0 8 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z"
+              fill="#1E0606"
+            />
+          </svg>
+        </button>
+        <a class="slider-text" href="/pages/catalog/index.html">Catalog</a>
+        <button class="left-black">
+          <svg
+            width="8"
+            height="12"
+            viewBox="0 0 8 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M1.31229 0L0 1.17735L5.37541 6L0 10.8227L1.31229 12L8 6L1.31229 0Z"
+              fill="#1E0606"
+            />
+          </svg>
+        </button>
+        <a class="slider-text">Toys</a>
+      </div>
+    </section>
+    <main>
+      <section>
+        <h1 class="hidden">Hidden</h1>
+        <form
+          action="https://form-data-dl.herokuapp.com/api/messages"
+          method="GET"
+        >
+          <fieldset class="fieldset-cost">
+            <legend class="fieldset-title">Cost</legend>
+            <input type="range" name="cost" id="form-range" min="0" max="500" />
+            <span class="filter-text">0</span>
+            <span class="filter-text">500</span>
+          </fieldset>
+          <fieldset class="fieldset-cost">
+            <legend class="fieldset-title">Color</legend>
+            <label
+              ><input
+                type="checkbox"
+                name="color"
+                value="Black"
+                class="color-checkbox filter-text "
+                checked/>Black</label>
+            <label
+              ><input
+                type="checkbox"
+                name="color"
+                value="Blue"
+                class="color-checkbox filter-text"
+              />
+              Blue</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="color"
+                value="Green"
+                class="color-checkbox filter-text"
+              />
+              Green</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="color"
+                value="White"
+                class="color-checkbox filter-text"
+              />
+              White</label
+            >
+          </fieldset>
+          <fieldset class="fieldset-cost">
+            <legend class="fieldset-title">Delivery</legend>
+            <label
+              ><input
+                type="radio"
+                name="delivery"
+                value="Free"
+                class="delivery-radio filter-text"
+              />
+              Free shipping</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="delivery"
+                value="Fast"
+                class="delivery-radio filter-text"
+                checked
+              />
+              Fast shipping</label
+            >
+          </fieldset>
+          <fieldset class="fieldset-cost">
+            <legend class="fieldset-title">Amount</legend>
+            <label
+              ><input
+                type="radio"
+                name="amount"
+                value="0-5"
+                class="amount-radio amount-checked filter-text"
+                checked
+              />0-5</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="amount"
+                value="10-20"
+                class="amount-radio amount-checked filter-text"
+              />10-20</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="amount"
+                value="20-50"
+                class="amount-radio amount-checked filter-text"
+              />20-50</label
+            >
+          </fieldset>
+          <button type="submit" class="button-black">Apply</button>
+        </form>
+      </section>
+      <section>
+        <h2 class="hidden">Hidden</h2>
+        <ul class="list-point-none delivery">
+          <li class="delivery-list">
+            <a href="#">
+              <img
+                class="delivery-img"
+                src="/images/SHARKY.png"
+                alt="SHARKY BEAN BAG CHAIR COVER"
+              />
+              <span class="name-text">SHARKY BEAN BAG CHAIR COVER</span>
+              <span class="name-price">$60.00 USD</span>
+            </a>
+          </li>
+          <li class="delivery-list">
+            <a href="#">
+              <img
+                class="delivery-img"
+                src="/images/BRASS.png"
+                alt="BRASS DECO FRAMES"
+              />
+              <span class="name-text">BRASS DECO FRAMES</span>
+              <span class="name-price">$66.00 USD</span>
+            </a>
+          </li>
+          <li class="delivery-list">
+            <a href="#">
+              <img
+                class="delivery-img"
+                src="/images/CIBO.png"
+                alt="CIBO FULL APRON"
+              />
+              <span class="name-text">CIBO FULL APRON</span>
+              <span class="name-price">$60.00 USD</span>
+            </a>
+          </li>
+          <li class="delivery-list">
+            <a href="#">
+              <img
+                class="delivery-img"
+                src="/images/GATCHA.png"
+                alt="GATCHA GATCHA GUMBALL MACHINE"
+              />
+              <span class="name-text">GATCHA GATCHA GUMBALL MACHINE</span>
+              <span class="name-price">$$56.00 USD</span>
+            </a>
+          </li>
+          <li class="delivery-list">
+            <a href="#">
+              <img
+                class="delivery-img"
+                src="/images/CHRISTMAS.png"
+                alt="CHRISTMAS ADVENT SCENTED CANDLE"
+              />
+              <span class="name-text">CHRISTMAS ADVENT SCENTED CANDLE</span>
+              <span class="name-price">$29.00 USD</span>
+            </a>
+          </li>
+          <li class="delivery-list">
+            <a href="#">
+              <img
+                class="delivery-img"
+                src="/images/TANGLE.png"
+                alt="TANGLE SPINNING TEA LIGHT"
+              />
+              <span class="name-text">TANGLE SPINNING TEA LIGHT</span>
+              <span class="name-price">$56.00 USD</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <ul class="list-pages-slider">
+        <li><a class="list-pages-left" href="#"></a></li>
+        <li class="number-slider"><a href="#">1</a></li>
+        <li class="number-slider"><a href="#">2</a></li>
+        <li class="number-slider"><a href="#">3</a></li>
+        <li class="number-slider"><a href="#">4</a></li>
+        <li><a class="list-pages-right" href="#"></a></li>
+      </ul>
+    </main>
+    <footer class="main-footer">
+      <section class="navigation-list">
+        <h2 class="footer title-navigation">Navigation</h2>
+        <hr />
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="#">About Us</a></li>
+          <li class="navigation-item"><a href="#">Blog</a></li>
+          <li class="navigation-item"><a href="#">Design Services</a></li>
+          <li class="navigation-item"><a href="#">Featured On</a></li>
+          <li class="navigation-item"><a href="#">2018 Holiday Catalog</a></li>
+          <li class="navigation-item"><a href="#">Shop By Designer</a></li>
+        </ul>
+      </section>
+      <section class="information-list">
+        <h2 class="footer title-information">Customer Information</h2>
+        <hr />
+        <ul class="information-list">
+          <li class="customer information-item"><a href="#">Contact Us</a></li>
+          <li class="customer information-item">
+            <a href="#">Sale Exclusions</a>
+          </li>
+          <li class="customer information-item">
+            <a href="#">Shipping & Returns</a>
+          </li>
+          <li class="customer information-item">
+            <a href="#">Terms & Conditions</a>
+          </li>
+          <li class="customer information-item">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li class="customer information-item"><a href="#">Search</a></li>
+        </ul>
+      </section>
+      <section class="Connect">
+        <h2 class="footer title-Connect">Connect</h2>
+        <hr />
+        <form class="input-join">
+          <p>
+            <input class="form-input" name="join" id="input-join" type="text" />
+          </p>
+          <button class="button-black" type="button">Join</button>
+        </form>
+        <ul>
+          <li>
+            <a class="psocial-item" href="#"
+              ><img src="/images/Facebook.png" alt="#"
+            /></a>
+          </li>
+          <li>
+            <a class="psocial-item" href="#"
+              ><img src="/images/Twitter.png" alt="#"
+            /></a>
+          </li>
+          <li>
+            <a class="psocial-item" href="#"
+              ><img src="/images/Pinterest.png" alt="#"
+            /></a>
+          </li>
+          <li>
+            <a class="psocial-item" href="#"
+              ><img src="/images/Instagram.png" alt="#"
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <div>
+        <a class="company-rating" href="#"> Company Rating </a>
+        <button class="star-button">
+          <img class="star-item" src="/images/Star.png" alt="star" />
+        </button>
+        <button class="star-button">
+          <img class="star-item" src="/images/Star.png" alt="star" />
+        </button>
+        <button class="star-button">
+          <img class="star-item" src="/images/Star.png" alt="star" />
+        </button>
+        <button class="star-button">
+          <img class="star-item" src="/images/Star.png" alt="star" />
+        </button>
+        <button class="star-button">
+          <img class="star-item" src="/images/Star.png" alt="star" />
+        </button>
+      </div>
+      <p class="footer-text">Copyright © 2018 Dlk • Design Life Kids</p>
+      <a class="footer-designed" href="#"
+        >Web Design — Direct Line Development</a
+      >
+    </footer>
+  </body>
+</html>

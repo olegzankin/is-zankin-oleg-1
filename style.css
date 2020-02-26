@@ -1,0 +1,30 @@
+/* poster */
+.slider-main_background {
+background-image: url(images/poster-main_background.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.number {
+font-family: Montserrat;
+font-weight: 300;
+font-size: 60px;
+line-height: 73px;
+}
+
+.slider-title {
+font-family: Montserrat;
+font-weight: bold;
+font-size: 40px;
+line-height: 110%;
+color: #1E0606;
+} 
+
+.free {
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+}
