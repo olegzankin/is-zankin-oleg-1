@@ -14,25 +14,35 @@
     <link rel="stylesheet" href="/common.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="header">
-      <a class="logo" href="index.html">
-        <img class="header-logo" src="images/logo.png" alt="DLK"
-      /></a>
-      <nav class="site-nav">
-        <link font-family: Open Sans href="common.css" />
-        <ul>
-          <li><a class="nav-item" href="#">BLOG</a></li>
+      <div class="container header-content">
+        <a class="logo" href="index.html">
+          <img class="header-logo" src="images/logo.png" alt="DLK"
+        /></a>
+        <nav class="header-nav">
+          <ul class="list-hidden-marker header-link-list">
+            <li><a class="nav-item" href="#">BLOG</a></li>
+            <li>
+              <a class="nav-item" href="pages/catalog/index.html">CATALOG</a>
+            </li>
+            <li><a class="nav-item" href="#">ABSOLUTE</a></li>
+          </ul>
+        </nav>
+        <ul class="list-hidden-marker header-link-contact">
           <li>
-            <a class="nav-item" href="pages/catalog/index.html">CATALOG</a>
+            <a class="search-link" href="#"
+              ><img src="images/XMLID 1397.png" alt="search"
+            /></a>
           </li>
-          <li><a class="nav-item" href="#">ABSOLUTE</a></li>
+          <li>
+            <a class="contact-link" href="pages/contact-us/index.html"
+              >CONTACT_US</a
+            >
+          </li>
         </ul>
-      </nav>
-      <a class="search-link" href="#"
-        ><img src="images/XMLID 1397.png" alt="search"
-      /></a>
-      <a class="contact-link" href="pages/contact-us/index.html">CONTACT US</a>
+      </div>
     </header>
     <main class="main">
       <section class="slider-best_product">
@@ -120,13 +130,15 @@
         </div>
       </section>
       <section class="delivery">
-        <img src="images/image_dress.png" alt="image_dress" />
-        <h2 class="delivery-title">DELIVERY</h2>
-        <ul class="delivery-list">
+        <img class="delivery-image" src="images/image_dress.png" alt="image_dress" />
+        <div >
+          <h2 class="delivery-title">DELIVERY</h2>
+          <ul class="delivery-list list-hidden-marker">
           <li><button class="button delivery-button">Delivery</button></li>
           <li><button class="button delivery-button">Guarantee</button></li>
           <li><button class="button delivery-button">Credit</button></li>
         </ul>
+      </div>
         <div class="delivery-text">
           <p class="text-paragraph">
             Some days i feel like i've been working on dlk my entire life and
